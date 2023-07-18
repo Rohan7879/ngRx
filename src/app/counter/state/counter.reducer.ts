@@ -13,7 +13,7 @@ const _counterReducer = createReducer(
   on(increment, (state) => {
     return {
       ...state,
-      counter: state.counter,
+      counter: state.counter + 1,
     };
   }),
   on(decrement, (state) => {
