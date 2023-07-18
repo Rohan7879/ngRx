@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="my-3">
+    {{ name }}
+  </div>
+  <input type="text" placeholder="Enter the Value" [(ngModel)]="value" /><br />
+  <button class="btn btn-sm btn-success my-1" (click)="onAdd()">
+    Add to Counter
+  </button>
+</div>
+
+<div class="container">
+  <button class="btn btn-primary my-3" (click)="onchangeName()">
+    Change Name
+  </button>
+</div>
